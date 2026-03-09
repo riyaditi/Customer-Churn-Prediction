@@ -6,6 +6,7 @@
 [![XGBoost](https://img.shields.io/badge/XGBoost-1.7-FF6600)](https://xgboost.ai/)
 [![SHAP](https://img.shields.io/badge/SHAP-0.42-4B0082)](https://shap.readthedocs.io/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-streamlit-app-url.com)
 
 <p align="center">
   <img src="reports/figures/shap_summary_plot.png" alt="SHAP Summary" width="600"/>
@@ -40,10 +41,6 @@ Reduce customer churn by identifying at-risk customers early and enabling target
 
 ### Deployment Architecture
 <img width="6330" height="3666" alt="deployment architecture" src="https://github.com/user-attachments/assets/44676f24-63bf-4a21-9636-5363815e4a41" />
-
-### Workflow Diagram
-<img width="803" height="6433" alt="data flow diagram" src="https://github.com/user-attachments/assets/56a8866e-11c1-4b61-942f-57556ad5ac91" />
-
 
 ---
 
@@ -115,33 +112,70 @@ Model Performance - Detailed metrics and feature importance
 
 🛠️ Tech Stack
 Category	Technologies
+
 Core	Python 3.11, Pandas, NumPy
+
 Visualization	Plotly, Matplotlib, Seaborn
+
 Machine Learning	Scikit-learn, XGBoost, LightGBM
+
 Model Interpretation	SHAP, Feature Importance
+
 Web Framework	Streamlit
+
 Development	VS Code, Jupyter, Git
 
 📁 Project Structure
+
 customer-churn-enterprise/
+
 ├── 📂 data/
+
 │   ├── 📂 raw/                 # Original dataset
+
 │   └── 📂 processed/            # Cleaned & engineered data
+
 ├── 📂 notebooks/
+
 │   ├── 01_eda_professional.ipynb
+
 │   ├── 02_feature_engineering.ipynb
+
 │   └── 03_model_training.ipynb
+
 ├── 📂 src/
+
 │   ├── 📂 data/                 # Data processing scripts
+
 │   ├── 📂 features/              # Feature engineering
+
 │   └── 📂 models/                # Model training & prediction
+
 ├── 📂 dashboard/
+
 │   └── app.py                    # Streamlit dashboard
+
 ├── 📂 models/                     # Saved trained models
+
 ├── 📂 reports/
+
 │   └── 📂 figures/                # Generated visualizations
+
 ├── requirements.txt
+
 └── README.md
+
+## 🖥️ Interactive Dashboard Preview
+
+| Home Page | Prediction Page |
+|:---------:|:---------------:|
+| <img src="https://github.com/user-attachments/assets/82073dc9-5bc0-4a2c-bdf2-3a9c7b04124c" width="400"/> |<img src="https://github.com/user-attachments/assets/0c3777e0-76bf-4886-a617-812ae974c440" width="400"/> |
+
+| EDA Page | Model Performance |
+|:--------:|:-----------------:|
+| <img src="https://github.com/user-attachments/assets/eefd295f-9944-4adf-a495-5614ffcbb054" width="400"/> | <img src= "https://github.com/user-attachments/assets/2009dbc4-94ef-4b1e-9274-c72f7daa58b8" width="400"/> |
+
+### 🎯 Try It Yourself
 
 💡 Business Recommendations
 Based on the analysis, here are actionable strategies to reduce churn:
@@ -212,16 +246,8 @@ Save millions in customer acquisition costs
 Increase CLV (Customer Lifetime Value) by 15-25%
 
 👨‍💻 Author
-Your Name
-
-📧 Email: your.email@example.com
-
-🔗 LinkedIn: Your LinkedIn Profile
-
-🐙 GitHub: @yourusername
-
-📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+Riya Demapure
+📧 Email: riyademapure@gmail.com
 
 🙏 Acknowledgments
 Codec Technologies - Internship opportunity and guidance
