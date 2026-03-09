@@ -30,29 +30,19 @@ Reduce customer churn by identifying at-risk customers early and enabling target
 ## 🏗️ System Architecture
 
 ### High-Level Architecture
-\`\`\`mermaid
 <img width="5314" height="5789" alt="system architecture" src="https://github.com/user-attachments/assets/2ce494fd-4570-4ebd-b4df-474622913fad" />
-\`\`\`
 
 ### Data Pipeline
-\`\`\`mermaid
 <img width="8421" height="1666" alt="data pipeline architecture" src="https://github.com/user-attachments/assets/f28d203f-ac0f-43e5-8b8c-87aa4932b553" />
-\`\`\`
 
 ### Model Training Pipeline
-\`\`\`mermaid
 <img width="4179" height="4585" alt="model training pipeline" src="https://github.com/user-attachments/assets/4550065e-fea8-48cd-8770-1869df9b9cc7" />
-\`\`\`
 
 ### Deployment Architecture
-\`\`\`mermaid
 <img width="6330" height="3666" alt="deployment architecture" src="https://github.com/user-attachments/assets/44676f24-63bf-4a21-9636-5363815e4a41" />
-\`\`\`
 
 ### Workflow Diagram
-\`\`\`mermaid
 <img width="803" height="6433" alt="data flow diagram" src="https://github.com/user-attachments/assets/56a8866e-11c1-4b61-942f-57556ad5ac91" />
-\`\`\`
 
 
 ---
